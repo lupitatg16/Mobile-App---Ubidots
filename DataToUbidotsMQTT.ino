@@ -8,17 +8,17 @@
 /****************************************
  * Define Constants
  ****************************************/
-#define WIFISSID "MEGACABLE-FAC0" // Put your WifiSSID here
-#define PASSWORD "PICQ5EW6RSHV" // Put your wifi password here
-#define TOKEN "BBFF-QpiHdrAzthzMxjMsYUcEa1UtxxvuFM" // Put your Ubidots' TOKEN
-#define MQTT_CLIENT_NAME "123456AbCde" // MQTT client Name, please enter your own 8-12 alphanumeric character ASCII string; 
+#define WIFISSID "YOUR_WIFI_NAME_HERE" // Put your WifiSSID here
+#define PASSWORD "YOUR_WIFI_PASSWORD_HERE" // Put your wifi password here
+#define TOKEN "YOUR_UBIDOTS_TOKEN_HERE" // Put your Ubidots' TOKEN
+#define MQTT_CLIENT_NAME "YOUR_MQTT_CLIENT_NAME_HERE" // MQTT client Name, please enter your own 8-12 alphanumeric character ASCII string; 
                                            //it should be a random and unique ascii string and different from all other devices
 
 #define VARIABLE_LABEL_temp "temperatura" // Assing the variable label
 #define VARIABLE_LABEL_hum "humedad" // Assing the variable label
 #define DEVICE_LABEL "deviceForMobileApp" // Assig the device label
 
-#define SENSOR 13 // Set the GPIO12 as SENSOR
+#define SENSOR 13 // Set the GPIO13 as SENSOR
 
 char mqttBroker[]  = "industrial.api.ubidots.com";
 char payload[200];
